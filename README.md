@@ -7,7 +7,7 @@ required: Python 3.x and BeautifulSoup4
 * creates an index of keywords based on html content from the crawled urls.  
 * uses RobotParser to ignore pages which are not supposed to be crawled.  
 * ranking algorithm to rank pages for ordered search and finding the best result  
-* for keyword lookup matches substrings in index keys as well to return url results using re.match  
+* for keyword lookup matches substrings as well in index keys to return url results  
 
 ### Steps to run:    
 1. open crawler.py in a text editor  
